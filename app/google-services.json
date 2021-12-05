@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "661371705324",
+    "firebase_url": "https://agora-2b0ac.firebaseio.com",
+    "project_id": "agora-2b0ac",
+    "storage_bucket": "agora-2b0ac.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:661371705324:android:108fabb415525e75",
+        "android_client_info": {
+          "package_name": "com.cria.agora"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "661371705324-glonelehuqik2cjr29cve9am6jsb4bhc.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.cria.agora",
+            "certificate_hash": "d8242db2ea604fcba287e0f1ca750fc774c027f4"
+          }
+        },
+        {
+          "client_id": "661371705324-sb1am8hcd7p7r7h8fg9e7cln0n3bmkva.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCz5l0ak6CkwMX5i7NQeNwotVsa6vKJt38"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "661371705324-sb1am8hcd7p7r7h8fg9e7cln0n3bmkva.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="schools">
+        <item>Comissão</item>
+        <item>Capitulina Satyro</item>
+        <item>Capistrano de Abreu</item>
+        <item>Abel da Silva</item>
+
+    </string-array>
+</resources>

@@ -1,0 +1,233 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".SetAtv12"
+    android:orientation="vertical"
+    app:layout_gravity="center"
+    android:layout_margin="8dp"
+    android:paddingBottom="64dp"
+    >
+
+    <!-- TODO: Update blank fragment layout -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center">
+
+        <com.akexorcist.roundcornerprogressbar.RoundCornerProgressBar
+            android:id="@+id/progressAtv12"
+            style="?android:attr/progressBarStyleHorizontal"
+            android:layout_width="match_parent"
+            android:layout_height="32dp"
+            app:rcBackgroundPadding="5dp"
+            app:rcBackgroundColor="#E6DEDE"
+            app:rcProgressColor="#4CAF50"
+            app:rcRadius="24dp"
+            app:rcMax="10"
+            android:visibility="gone"
+            />
+
+        <EditText
+            android:id="@+id/editQuestionAtv12"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textPersonName"
+            android:hint="@string/instruction"
+            android:textSize="24sp"
+            android:layout_marginBottom="16dp"/>
+
+        <EditText
+            android:id="@+id/editAltCertaAtv12"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textPersonName"
+            android:hint="@string/sentence"
+            android:textSize="24sp"
+            android:layout_marginBottom="16dp"/>
+        <EditText
+            android:id="@+id/editRespostaAtv12"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textPersonName"
+            android:hint="@string/answer"
+            android:textSize="24sp"
+            android:layout_marginBottom="16dp"/>
+
+        <LinearLayout
+            android:id="@+id/radioAtv12"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="8dp"
+            android:orientation="vertical">
+
+
+            <EditText
+                android:id="@+id/editAlterna1Atv12"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="16dp"
+                android:layout_weight="1"
+                android:inputType="textPersonName"
+                android:hint="@string/answer_1"
+                android:layout_marginTop="16dp"/>
+
+
+            <EditText
+                android:id="@+id/editAlterna2Atv12"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="16dp"
+                android:layout_weight="1"
+                android:inputType="textPersonName"
+                android:hint="@string/answer_2"
+                android:layout_marginTop="16dp"/>
+
+
+            <EditText
+                android:id="@+id/editAlterna3Atv12"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="16dp"
+                android:layout_weight="1"
+                android:inputType="textPersonName"
+                android:hint="@string/answer_3"
+                android:layout_marginTop="16dp"/>
+
+            <EditText
+                android:id="@+id/editAlterna4Atv12"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="16dp"
+                android:layout_weight="1"
+                android:inputType="textPersonName"
+                android:hint="@string/answer_4"
+                android:layout_marginTop="16dp"/>
+
+            <EditText
+                android:id="@+id/editAlterna5Atv12"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="16dp"
+                android:layout_weight="1"
+                android:inputType="textPersonName"
+                android:hint="@string/answer_5"
+                android:layout_marginTop="16dp"/>
+
+
+            <EditText
+                android:id="@+id/editAlterna6Atv12"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="16dp"
+                android:layout_weight="1"
+                android:inputType="textPersonName"
+                android:hint="@string/answer_6"
+                android:layout_marginTop="16dp"/>
+
+
+            <EditText
+                android:id="@+id/editAlterna7Atv12"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="16dp"
+                android:layout_weight="1"
+                android:inputType="textPersonName"
+                android:hint="@string/answer_7"
+                android:layout_marginTop="16dp"/>
+
+            <EditText
+                android:id="@+id/editAlterna8Atv12"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="16dp"
+                android:layout_weight="1"
+                android:inputType="textPersonName"
+                android:hint="@string/answer_8"
+                android:layout_marginTop="16dp"/>
+
+            <EditText
+                android:id="@+id/editAlterna9Atv12"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="16dp"
+                android:layout_weight="1"
+                android:inputType="textPersonName"
+                android:hint="@string/answer_9"
+                android:layout_marginTop="16dp"/>
+
+
+        </LinearLayout>
+        <EditText
+            android:id="@+id/editurlAtv12"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/enter_the_video_url"
+            android:textSize="24sp"
+            android:layout_marginStart="8dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginBottom="8dp"
+            />
+
+        <TextView
+            android:id="@+id/descAtv12_2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/how_many"
+            android:textSize="14sp"
+            android:gravity="center_horizontal"/>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center_horizontal">
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/menosAtv12"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="-"
+                app:backgroundTint="@color/fui_bgEmail"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/pointsAtv12"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="0"
+                android:gravity="center_horizontal"
+                android:layout_marginStart="16dp"
+                android:layout_marginEnd="16dp"
+                android:textSize="24sp"
+                android:textStyle="bold"/>
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/maisAtv12"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:backgroundTint="@color/verde_correto"
+                android:text="+"
+                android:textStyle="bold" />
+        </LinearLayout>
+        <ImageButton
+            android:id="@+id/imgBtnNextSetAtv12"
+            android:layout_width="wrap_content"
+            android:layout_height="48dp"
+            android:scaleType="fitCenter"
+            android:layout_marginStart="8dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginBottom="16dp"
+            android:layout_marginTop="16dp"
+            android:src="@drawable/imagebutton_nextpage"
+            android:background="@color/fui_transparent"
+            />
+
+    </LinearLayout>
+
+</ScrollView>

@@ -1,0 +1,255 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context=".MainActivity"
+    android:background="@color/graylight"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="340sp">
+        <com.google.android.material.floatingactionbutton.FloatingActionButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/fabGoToAdm"
+            android:src="@drawable/edit_button"
+            app:backgroundTint="@color/telaLogin"
+            android:layout_margin="4dp"
+            app:fabSize="mini"
+            />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="250sp"
+            android:background="@color/startblue"
+            android:orientation="vertical">
+
+            <ImageButton
+                android:id="@+id/img_avatar"
+                android:layout_width="100sp"
+                android:layout_height="100sp"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="32dp"
+                android:layout_marginBottom="16dp"
+                android:scaleType="fitCenter"
+                android:background="@color/startblue"/>
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:orientation="horizontal"
+                android:layout_gravity="center_horizontal"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:id="@+id/textHi"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginTop="10dp"
+                    android:text="@string/hi"
+                    android:textColor="#fff"
+                    android:textStyle="bold"
+                    android:textSize="21sp"/>
+                <TextView
+                    android:id="@+id/textName"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginTop="10dp"
+                    android:text="Seu nome"
+                    android:layout_marginStart="8dp"
+                    android:textColor="#fff"
+                    android:textStyle="bold"
+                    android:textSize="21sp"/>
+            </LinearLayout>
+
+
+        </LinearLayout>
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="120sp"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="200sp"
+            app:cardBackgroundColor="#ffffff"
+            android:layout_marginStart="32dp"
+            android:layout_marginEnd="32dp"
+            android:elevation="8dp"
+            app:cardCornerRadius="8dp">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal"
+                android:weightSum="3">
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical"
+                    android:gravity="center">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/atividades"
+                        android:textColor="@color/colorPrimaryDark"
+                        android:textSize="16sp"
+                        />
+                    <TextView
+                        android:id="@+id/txt_atividades"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/qtd_atividades"
+                        android:textColor="@color/startblue"
+                        android:textStyle="bold"
+                        android:textSize="20sp"
+                        android:paddingTop="12dp"
+                        android:gravity="center_horizontal"
+                        />
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical"
+                    android:gravity="center">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/score"
+                        android:textColor="@color/colorPrimaryDark"
+                        android:textSize="16sp"
+                        />
+                    <TextView
+                        android:id="@+id/txt_score"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/qtd_score"
+                        android:textColor="@color/startblue"
+                        android:textStyle="bold"
+                        android:textSize="20sp"
+                        android:paddingTop="12dp"
+                        android:gravity="center_horizontal"
+                        />
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical"
+                    android:gravity="center">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/nivel"
+                        android:textColor="@color/colorPrimaryDark"
+                        android:textSize="16sp"
+                        />
+                    <TextView
+                        android:id="@+id/txt_nivel"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/qtd_nivel"
+                        android:textColor="@color/startblue"
+                        android:textStyle="bold"
+                        android:textSize="20sp"
+                        android:paddingTop="12dp"
+                        android:layout_gravity="center_horizontal"
+                        />
+                </LinearLayout>
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+    </RelativeLayout>
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="16dp"
+        >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            >
+
+        <ImageButton
+            android:id="@+id/btn_badge"
+            android:layout_width="wrap_content"
+            android:layout_height="60dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginStart="8dp"
+            android:background="@color/graylight"
+            android:layout_weight="2"
+            android:scaleType="fitCenter"
+            app:srcCompat="@drawable/imagebutton_achieve" />
+
+        <ImageButton
+            android:id="@+id/fab"
+            android:layout_width="wrap_content"
+            android:layout_height="60dp"
+            android:layout_marginStart="32dp"
+            android:layout_marginEnd="32dp"
+            android:layout_gravity="center_horizontal"
+            android:background="@color/graylight"
+            android:layout_weight="1"
+            android:scaleType="fitCenter"
+            android:src="@drawable/imagebutton_go" />
+
+            <ImageButton
+                android:id="@+id/btn_game"
+                android:layout_width="wrap_content"
+                android:layout_height="60dp"
+                android:layout_marginEnd="8dp"
+                android:layout_weight="2"
+                android:layout_gravity="center_horizontal"
+                android:background="@color/graylight"
+                android:scaleType="fitCenter"
+                app:srcCompat="@drawable/imagebutton_game" />
+
+
+    </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            >
+            <ImageButton
+                android:id="@+id/btn_perf"
+                android:layout_width="wrap_content"
+                android:layout_height="60dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginStart="8dp"
+                android:background="@color/graylight"
+                android:layout_weight="2"
+                android:scaleType="fitCenter"
+                app:srcCompat="@drawable/imagebutton_perf" />
+
+            <ImageButton
+                android:id="@+id/btn_social"
+                android:layout_width="wrap_content"
+                android:layout_height="60dp"
+                android:layout_marginStart="32dp"
+                android:layout_marginEnd="32dp"
+                android:layout_gravity="center_horizontal"
+                android:background="@color/graylight"
+                android:layout_weight="1"
+                android:scaleType="fitCenter"
+                android:src="@drawable/imagebutton_social" />
+
+            <ImageButton
+                android:id="@+id/btn_sair"
+                android:layout_width="wrap_content"
+                android:layout_height="60dp"
+                android:layout_marginEnd="8dp"
+                android:layout_weight="2"
+                android:layout_gravity="center_horizontal"
+                android:background="@color/graylight"
+                android:scaleType="fitCenter"
+                app:srcCompat="@drawable/imagebutto_logout" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

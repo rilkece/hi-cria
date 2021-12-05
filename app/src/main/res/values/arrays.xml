@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="english_words_yyy">
+    <item>aa</item>
+    <item>aah</item>
+    <item>aahed</item>
+    <item>aahing</item>
+    <item>aahs</item>
+    <item>aal</item>
+    <item>aalii</item>
+    <item>aaliis</item>
+    <item>aals</item>
+    <item>aardvark</item>
+    <item>aardvarks</item>
+    <item>aardwolf</item>
+    <item>aardwolves</item>
+    </string-array>
+
+</resources>

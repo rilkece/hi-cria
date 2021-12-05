@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="funcs">
+        <item>Professor</item>
+        <item>Diretor</item>
+        <item>Coord. Ped.</item>
+        <item>Coord. Adm.</item>
+        <item>Outra func.</item>
+    </string-array>
+</resources>

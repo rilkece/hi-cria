@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:weightSum="2"
+    android:layout_margin="8dp"
+    android:id="@+id/cardAtv"
+    android:elevation="8dp"
+    app:cardCornerRadius="8dp">
+
+    <LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+        >
+        <de.hdodenhof.circleimageview.CircleImageView
+            xmlns:app="http://schemas.android.com/apk/res-auto"
+            android:id="@+id/ActivityPic"
+            android:layout_width="96dp"
+            android:layout_height="96dp"
+            android:src="@drawable/animais"
+            app:civ_border_width="2dp"
+            app:civ_border_color="#00000000"
+            android:elevation="8dp"
+            />
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="vertical">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="0dp"
+            android:layout_weight="8"
+            android:layout_marginStart="8dp"
+            android:id="@+id/nomeAtividade"
+            android:text="@string/nomeAtividade"
+            android:fontFamily="@font/quicksand_bold"
+            android:textColor="@color/branco"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="0dp"
+                android:layout_weight="2"
+                android:layout_marginStart="8dp"
+                android:id="@+id/nomeWeekScore"
+                android:text="loading week score..."
+                android:fontFamily="@font/quicksand_bold"
+                android:textColor="@color/branco"
+                android:textSize="12sp"/>
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginStart="8dp"
+            android:id="@+id/codAtividade"
+            android:textSize="24sp"
+            android:visibility="gone"/>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            >
+            <com.suke.widget.SwitchButton
+                android:id="@+id/switch_button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:visibility="gone" />
+            <com.google.android.material.button.MaterialButton
+                android:layout_width="45dp"
+                android:layout_height="wrap_content"
+                app:icon="@drawable/ic_lock_black_24dp"
+                app:iconGravity="textStart"
+                android:layout_marginEnd="16dp"
+                android:id="@+id/lockButton"
+                app:backgroundTint="@color/fui_bgEmail"
+                />
+            <com.google.android.material.button.MaterialButton
+                android:layout_width="45dp"
+                android:layout_height="45dp"
+                android:layout_marginEnd="16dp"
+                app:icon="@drawable/ic_play_arrow_white_24dp"
+                app:iconGravity="start"
+                android:id="@+id/playAtividades"
+                app:backgroundTint="@color/Progress3"
+                android:visibility="gone"
+                />
+        </LinearLayout>
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>

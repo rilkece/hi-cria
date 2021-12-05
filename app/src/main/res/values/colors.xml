@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#008577</color>
+    <color name="colorPrimaryDark">#292b3d</color>
+    <color name="graylight">#fafafa</color>
+    <color name="startblue">#09c6df</color>
+    <color name="endblue">#0bcce6</color>
+    <color name="colorAccent">#D81B60</color>
+
+
+    <!-- Login Collors -->
+    <color name="telaLogin">#FF5722</color>
+    <color name="botaoEntrar">#FF3422</color>
+
+    <!-- Button Collors -->
+    <color name="vermelho_errado">#990A0A</color>
+    <color name="verde_correto">#075C0C</color>
+    <color name="branco">#ffffff</color>
+    <color name="preto">#000000</color>
+
+    <!-- Progress Colors -->
+    <color name="Icon1">#9B2907</color>
+    <color name="Progress1">#DF5429</color>
+    <color name="Icon2">#BD7509</color>
+    <color name="Progress2">#FFEB3B</color>
+    <color name="Icon3">#0E6612</color>
+    <color name="Progress3">#44C049</color>
+
+    <!-- Week Score Colors -->
+    <color name="NoScore">#AF0707</color>
+    <color name="Score25">#B63005</color>
+    <color name="Score50">#B67B16</color>
+    <color name="Score75">#1E7E08</color>
+    <color name="Score100">#0F76A5</color>
+    <color name="ScoreMore100">#673AB7</color>
+
+    <!--loop bae -->
+    <color name="enls_default_list_background">#ffc829</color>
+
+    <color name="enls_default_selection_view_background">#ffcd28</color>
+
+    <!--  ranking colors  -->
+    <color name="position1">#BF9A2B</color>
+    <color name="position2">#F16539</color>
+    <color name="position3">#9A3A33</color>
+    <color name="backranking">#00BCD4</color>
+</resources>

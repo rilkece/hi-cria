@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainGames"
+    android:orientation="vertical"
+    android:background="@color/branco">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_margin="8dp">
+
+        <ImageButton
+            android:id="@+id/imgBtnBackMainGames"
+            android:layout_width="40dp"
+            android:layout_height="wrap_content"
+            app:srcCompat="@drawable/back_button"
+            android:layout_marginEnd="24dp"
+            android:background="@color/telaLogin"/>
+
+        <TextView
+            android:id="@+id/choose_gameTxt"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="24sp"
+            android:gravity="center_horizontal"
+            android:textStyle="bold"
+            android:text="@string/choose_a_game"
+            android:textColor="@color/colorPrimaryDark"/>
+
+    </LinearLayout>
+
+    <ImageButton
+        android:id="@+id/btn_game_memory"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:layout_marginTop="32dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginEnd="8dp"
+        android:src="@drawable/imagebutton_game_logo_memory"
+        android:scaleType="fitCenter"
+        android:background="@color/fui_transparent"/>
+
+    <ImageButton
+        android:id="@+id/btn_game_words"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:layout_marginTop="32dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginEnd="8dp"
+        android:src="@drawable/imagebutton_game_logo_16_letters"
+        android:scaleType="fitCenter"
+        android:background="@color/fui_transparent"/>
+    <ImageButton
+        android:id="@+id/btn_game_hangman"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:layout_marginTop="32dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginEnd="8dp"
+        android:src="@drawable/imagebutton_game_logo_hangman"
+        android:scaleType="fitCenter"
+        android:background="@color/fui_transparent"/>
+
+
+</LinearLayout>

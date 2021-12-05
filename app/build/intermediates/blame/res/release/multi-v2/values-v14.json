@@ -1,0 +1,20 @@
+{
+    "logs": [
+        {
+            "outputFile": "C:\\Users\\erick\\AndroidStudioProjects\\agora\\app\\build\\intermediates\\incremental\\mergeReleaseResources\\merged.dir\\values-v14\\values-v14.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\erick\\.gradle\\caches\\transforms-2\\files-2.1\\ade607c99480d9e14a040c24e0e26b12\\jetified-NiftyDialogEffects-v1.0.3\\res\\values-v14\\values-v14.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endLines": "4",
+                        "endColumns": "12",
+                        "endOffsets": "199"
+                    }
+                }
+            ]
+        }
+    ]
+}

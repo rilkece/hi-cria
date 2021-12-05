@@ -1,0 +1,17 @@
+<component name="libraryTable">
+  <library name="Gradle: com.cleveroad:loopbar:1.2.0@aar">
+    <ANNOTATIONS>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/d00cef71acf3dca85315f21d7a87810a/jetified-loopbar-1.2.0/annotations.zip!/" />
+    </ANNOTATIONS>
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/d00cef71acf3dca85315f21d7a87810a/jetified-loopbar-1.2.0/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/d00cef71acf3dca85315f21d7a87810a/jetified-loopbar-1.2.0/res" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.cleveroad/loopbar/1.2.0/73e8f1801d097f7990ffc2f257f96d2437afd575/loopbar-1.2.0-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.cleveroad/loopbar/1.2.0/fb087ce0250b158aca1694aa480c3140ff9a2c5/loopbar-1.2.0-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

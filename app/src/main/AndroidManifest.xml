@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.cria.agora">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+
+    <uses-feature android:name="android.hardware.screen.portrait" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/logo_hi_cria"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/logo_hi_cria_rounded"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.MaterialComponents.NoActionBar"
+        tools:ignore="GoogleAppIndexingWarning">
+        <activity android:name=".GameHangman"></activity>
+        <activity android:name=".fragAtv10" />
+        <activity android:name=".GamePerformance" />
+        <activity android:name=".GameBuildWords" />
+        <activity android:name=".GameMatching" />
+        <activity android:name=".PlayMemory" />
+        <activity android:name=".MainGames" />
+        <activity
+            android:name=".Cadastro"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Performance"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".SetActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".EscolhaTipoAtividade"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".MainAdm"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Achivements"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".AvatarChoice"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".PaginaDeAtividades"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Week"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Atividades"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/title_activity_main"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Login"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

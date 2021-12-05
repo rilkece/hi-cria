@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#9C27B0"
+    tools:context=".GameMatching">
+
+    <ImageButton
+        android:id="@+id/imgBtnBackMatching"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:background="@color/telaLogin"
+        app:layout_constraintBottom_toTopOf="@+id/textView7"
+        app:layout_constraintEnd_toStartOf="@+id/textView4"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/back_button" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="16dp"
+        android:text="@string/matching_game"
+        android:textColor="@color/branco"
+        android:textSize="36sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Switch
+        android:id="@+id/switchMatch"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="32dp"
+        app:layout_constraintStart_toEndOf="@+id/textView7"
+        app:layout_constraintTop_toBottomOf="@+id/textView4" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/btnMatchNames"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="48dp"
+        android:layout_marginTop="32dp"
+        android:layout_marginEnd="64dp"
+        android:text="@string/names"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/switchMatch"
+        style="@style/Widget.AppCompat.Button"
+        android:textColor="@color/branco"
+        app:backgroundTint="@color/botaoEntrar"
+        app:cornerRadius="4dp"
+        app:strokeColor="@color/branco"
+        app:strokeWidth="1dp"
+        />
+
+    <ImageButton
+        android:id="@+id/btnPerf_MatchNames"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_weight="2"
+        android:background="@color/fui_transparent"
+        android:scaleType="fitCenter"
+        android:layout_marginStart="16dp"
+        app:layout_constraintBottom_toTopOf="@+id/btnMatchExpressions"
+        app:layout_constraintStart_toEndOf="@+id/btnMatchNames"
+        app:layout_constraintTop_toBottomOf="@+id/switchMatch"
+        app:srcCompat="@drawable/imagebutton_perf" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/btnMatchExpressions"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="48dp"
+        android:layout_marginTop="32dp"
+        android:layout_marginEnd="64dp"
+        android:text="Expressions"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnMatchNames"
+        style="@style/Widget.AppCompat.Button"
+        android:textColor="@color/branco"
+        app:backgroundTint="@color/botaoEntrar"
+        app:cornerRadius="4dp"
+        app:strokeColor="@color/branco"
+        app:strokeWidth="1dp"/>
+
+    <ImageButton
+        android:id="@+id/btnPerf_MatchExpressions"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginStart="16dp"
+        android:layout_weight="2"
+        android:background="@color/fui_transparent"
+        android:scaleType="fitCenter"
+        app:layout_constraintBottom_toTopOf="@+id/btnMatchPhrases"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/btnMatchExpressions"
+        app:layout_constraintTop_toBottomOf="@+id/btnPerf_MatchNames"
+        app:srcCompat="@drawable/imagebutton_perf" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/btnMatchPhrases"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="48dp"
+        android:layout_marginTop="32dp"
+        android:layout_marginEnd="64dp"
+        android:text="phrases"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnMatchExpressions"
+        style="@style/Widget.AppCompat.Button"
+        android:textColor="@color/branco"
+        app:backgroundTint="@color/botaoEntrar"
+        app:cornerRadius="4dp"
+        app:strokeColor="@color/branco"
+        app:strokeWidth="1dp"/>
+
+    <ImageButton
+        android:id="@+id/btnPerf_MatchPhrases"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginStart="16dp"
+        android:layout_weight="2"
+        android:background="@color/fui_transparent"
+        android:scaleType="fitCenter"
+        app:layout_constraintBottom_toTopOf="@+id/btnUpdateArrays"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/btnMatchPhrases"
+        app:layout_constraintTop_toBottomOf="@+id/btnPerf_MatchExpressions"
+        app:srcCompat="@drawable/imagebutton_perf"
+        />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/btnUpdateArrays"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="48dp"
+        android:layout_marginTop="32dp"
+        android:layout_marginEnd="64dp"
+        android:text="@string/common_google_play_services_update_button"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnMatchPhrases"
+        android:onClick="getListFiles"
+        style="@style/Widget.AppCompat.Button"
+        android:textColor="@color/branco"
+        app:backgroundTint="@color/botaoEntrar"
+        app:cornerRadius="4dp"
+        app:strokeColor="@color/branco"
+        app:strokeWidth="1dp"
+        android:visibility="invisible"/>
+
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:layout_marginStart="16dp"
+        android:textSize="18sp"
+        android:textColor="@color/branco"
+        android:text="@string/subtitles"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView4" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

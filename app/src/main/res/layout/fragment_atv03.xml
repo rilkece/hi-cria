@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/perguntaAudioAlternaAtv3"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".fragAtv3"
+    android:background="#ffffff"
+
+    >
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        >
+
+
+    <!-- TODO: Update blank fragment layout -->
+    <TextView
+        android:id="@+id/txtPerguntaAtv3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="16dp"
+        android:fontFamily="@font/acme"
+        android:text="@string/loading"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="24sp"
+        android:autoSizeTextType="uniform"
+        android:autoSizeMaxTextSize="32sp"
+        android:textStyle="bold"
+        android:layout_gravity="center_horizontal"/>
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+    android:id="@+id/playerAtv3"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="16dp"
+    android:layout_marginBottom="16dp"
+    android:layout_gravity="center_horizontal"
+    android:src="@drawable/ic_play_arrow_black_24dp"/>
+    <TextView
+        android:id="@+id/txtLoadingAtv3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="8dp"
+        android:text="@string/loading"
+        android:gravity="center_horizontal"
+        android:textColor="@color/colorPrimaryDark"
+        android:visibility="invisible"
+        />
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:layout_marginStart="8dp"
+            android:layout_marginEnd="8dp"
+            android:layout_weight="1">
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/btn1Atv3"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:textSize="10sp"
+                android:autoSizeTextType="uniform"
+                android:autoSizeMaxTextSize="16sp"
+                android:text="@string/loading"
+                app:backgroundTint="@color/fui_transparent"
+                android:layout_marginEnd="32sp"
+                android:textColor="@color/colorPrimaryDark" />
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/btn2Atv3"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:textSize="10sp"
+                android:autoSizeTextType="uniform"
+                android:autoSizeMaxTextSize="16sp"
+                android:text="@string/loading"
+                app:backgroundTint="@color/fui_transparent"
+                android:textColor="@color/colorPrimaryDark" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:layout_marginStart="8dp"
+            android:layout_marginEnd="8dp"
+            android:layout_weight="1">
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/btn3Atv3"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:textSize="10sp"
+                android:autoSizeTextType="uniform"
+                android:autoSizeMaxTextSize="16sp"
+                android:text="@string/loading"
+                app:backgroundTint="@color/fui_transparent"
+                android:layout_marginEnd="32sp"
+                android:textColor="@color/colorPrimaryDark" />
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/btn4Atv3"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:textSize="10sp"
+                android:autoSizeTextType="uniform"
+                android:autoSizeMaxTextSize="16sp"
+                android:text="@string/loading"
+                app:backgroundTint="@color/fui_transparent"
+                android:textColor="@color/colorPrimaryDark"/>
+        </LinearLayout>
+
+
+
+
+
+
+</LinearLayout>
+</ScrollView>

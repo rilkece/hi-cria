@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:tools="http://schemas.android.com/tools"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:icon="@drawable/ic_pawprint"
+        android:title="animal"
+        tools:ignore="HardcodedText,PrivateResource"/>
+    <item
+        android:icon="@drawable/ic_apple_black_silhouette_with_a_leaf"
+        android:title="fruit"
+        tools:ignore="HardcodedText,PrivateResource"/>
+    <item
+        android:icon="@drawable/ic_restaurant"
+        android:title="food"
+        tools:ignore="HardcodedText,PrivateResource"/>
+    <item
+        android:icon="@drawable/ic_cloud"
+        android:title="sky"
+        tools:ignore="HardcodedText,PrivateResource"/>
+    <item
+        android:icon="@drawable/ic_sweet_cake_piece"
+        android:title="dessert"
+        tools:ignore="HardcodedText,PrivateResource"/>
+    <item
+        android:icon="@drawable/ic_sushi_with_chopsticks_from_japan"
+        android:title="sushi"
+        tools:ignore="HardcodedText,PrivateResource"/>
+    <item
+        android:icon="@drawable/ic_github_character"
+        android:title="character"
+        tools:ignore="HardcodedText,PrivateResource"/>
+    <item
+        android:icon="@drawable/ic_tree_leaf"
+        android:title="plant"
+        tools:ignore="HardcodedText,PrivateResource"/>
+    <item
+        android:icon="@drawable/ic_carrot"
+        android:title="vegetable"
+        tools:ignore="HardcodedText,PrivateResource"/>
+
+</menu>

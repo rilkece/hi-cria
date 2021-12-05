@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".SetAtv1"
+    android:orientation="vertical"
+    app:layout_gravity="center"
+    android:layout_margin="8dp"
+    android:paddingBottom="64dp"
+    >
+
+    <!-- TODO: Update blank fragment layout -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center">
+
+    <com.akexorcist.roundcornerprogressbar.RoundCornerProgressBar
+        android:id="@+id/progressAtv5"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:layout_width="match_parent"
+        android:layout_height="32dp"
+        app:rcBackgroundPadding="5dp"
+        app:rcBackgroundColor="#E6DEDE"
+        app:rcProgressColor="#4CAF50"
+        app:rcRadius="24dp"
+        app:rcMax="10"
+        android:visibility="gone"
+        />
+
+    <EditText
+        android:id="@+id/editQuestionAtv5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:hint="Instruction."
+        android:textSize="24sp"
+        android:layout_marginStart="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="32dp"/>
+    <EditText
+        android:id="@+id/editurlAtv5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter the PDF url"
+        android:textSize="24sp"
+        android:layout_marginStart="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="48dp"
+        />
+    <ImageButton
+        android:id="@+id/imgBtnNextSetAtv5"
+        android:layout_width="wrap_content"
+        android:layout_height="48dp"
+        android:scaleType="fitCenter"
+        android:layout_marginStart="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="16dp"
+        android:layout_marginTop="16dp"
+        android:src="@drawable/imagebutton_nextpage"
+        android:background="@color/fui_transparent"
+        />
+
+    </LinearLayout>
+
+</ScrollView>
